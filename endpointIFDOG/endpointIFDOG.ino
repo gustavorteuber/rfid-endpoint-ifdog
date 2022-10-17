@@ -127,7 +127,7 @@ void loop()
   if (conteudo.substring(1) == "f5 b1 ae 20") //UID 4 - Tag do Maicon (o codigo da tag (exemplo))
   {
     Serial.println("Formiga está aqui!");
-    SPrintLocalTime();
+    PrintLocalTime();
   }
   else
   {
